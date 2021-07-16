@@ -41,6 +41,12 @@ const questions = [
 
     },
     {
+        type: 'list',
+        message: 'What licence would you like to use?',
+        name: 'licence',
+        choices: ['MIT', 'Unlicense', 'Attribution License (BY)', 'Mozilla Public License 2.0'],
+    },
+    {
         type:'input',
         name:'testslib',
         message:'What library/libraries were used to test the functionality?',
