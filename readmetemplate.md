@@ -1,12 +1,12 @@
-# ${title}
+# ${data.title}
 
 ## Licence
 
 ## Description
 
-${description1}
+${data.description1}
 
-${description2}
+${data.description2}
 
 ## Table of Contents
 
@@ -18,34 +18,34 @@ ${description2}
 
 ## Installation
 
-${installation}
+${data.installation}
 
 ## Usage 
 
-${usage}
+${data.usage}
 
 ## Contributing
 
-${contributing}
+${data.contributing}
 
 ## Tests
 
 The following libraries were used for testing this software :
 
-${testslib}
+${data.testslib}
 
 The commands necessary to test this softare include :
 
-${testscommands}
+${data.testscommands}
 
 
 ## Questions
 
 If you have any questions or concerns you can reach me at : 
 
-${email}
+${data.email}
 
 or on my github
 
-[${github}](https://github.com/${github})
+[${data.github}](https://github.com/${data.github})
 
