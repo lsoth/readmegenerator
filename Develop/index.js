@@ -1,4 +1,4 @@
-// TODO: Include packages needed for this application
+ // TODO: Include packages needed for this application
 const fs = require ('fs');
 const inquirer = require('inquirer');
 const util = require('util')
@@ -43,8 +43,8 @@ const questions = [
     {
         type: 'list',
         message: 'What licence would you like to use?',
-        name: 'licence',
-        choices: ['MIT', 'Unlicense', 'Attribution License (BY)', 'Mozilla Public License 2.0'],
+        name: 'license',
+        choices: ['MIT', 'UnLicense', 'Attribution License (BY)', 'Mozilla Public License 2.0'],
     },
     {
         type:'input',
