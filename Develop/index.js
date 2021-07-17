@@ -1,4 +1,4 @@
- // TODO: Include packages needed for this application
+ // Packages needed for this application
 const fs = require ('fs');
 const inquirer = require('inquirer');
 const util = require('util')
@@ -6,7 +6,9 @@ const generateMarkdown = require('./utils/generateMarkdown');
 
 const writeREADME = util.promisify(fs.writeFile);
 
-// TODO: Create an array of questions for user input
+
+//Questions to be answsered by the user to generate README
+
 const questions = [
     {
         type: 'input',
@@ -69,7 +71,7 @@ const questions = [
     }
 ];
 
-// TODO: Create a function to initialize app
+//function to generate README
 const init = async () => {
     const data = await inquirer.prompt (questions);
     const newREADME = generateMarkdown(data);

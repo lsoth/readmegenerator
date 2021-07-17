@@ -1,3 +1,5 @@
+// variables used to generate license badge
+
 const UnLicense = "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)";
 const attributionLic = "[![License: Open Data Commons Attribution](https://img.shields.io/badge/License-ODC_BY-brightgreen.svg)](https://opendatacommons.org/licenses/by/)";
 const MITLic = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
@@ -17,6 +19,8 @@ function renderLicenseBadge(data) {
     licenseBadge = MPL
   }
 };
+
+//function to generate contents of README 
 
 const generateMarkdown = data => {
 
@@ -60,7 +64,7 @@ const generateMarkdown = data => {
     
   The commands necessary to test this softare include :
     
-  ${data.testscommands}
+  ${data.testcommands}
     
     
   ## Questions
